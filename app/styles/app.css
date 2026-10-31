@@ -1,0 +1,293 @@
+/* src/styles/app.css */
+@import "tailwindcss";
+
+/* 1. Base Layer */
+/*@import "./base/_fonts.css";*/
+/* src/styles/base/_fonts.css */
+
+/* Ideally, install Geist via: npm install geist
+   Then import in your main.tsx.
+   Here we define the font stack for Tailwind.
+*/
+
+:root {
+  /* Geist Sans for UI */
+  --font-geist-sans:
+    "Geist", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  /* Geist Mono for Data/Code */
+  --font-geist-mono: "Geist Mono", "JetBrains Mono", "Fira Code", monospace;
+}
+
+/*@import "./base/_reset.css";*/
+
+/* 2. Tokens Layer */
+/*@import "./tokens/_colors.css";*/
+/* src/styles/tokens/_colors.css */
+
+:root {
+  /* --- BASE PALETTE --- */
+  /* Brand Navy */
+  --color-navy-950: #000a68; /* Logo/Deepest */
+  --color-navy-900: #0f172a; /* Card Bg (Dark) */
+  --color-navy-800: #1e293b; /* Border (Dark) */
+
+  /* Brand Pale Sky */
+  --color-sky-50: #f0f9ff;
+  --color-sky-100: #e0f2fe;
+  --color-sky-200: #d2eaf5; /* Accent */
+
+  /* --- LIGHT MODE MAPPING (Professional & Clean) --- */
+  --background: #f8fafc; /* Slate 50 */
+  --foreground: #000a68; /* Brand Navy */
+
+  --card: #ffffff;
+  --card-foreground: #000a68;
+
+  --popover: #ffffff;
+  --popover-foreground: #000a68;
+
+  --primary: #000a68; /* Brand Navy as Primary Action */
+  --primary-foreground: #ffffff;
+
+  --secondary: #d2eaf5; /* Pale Sky */
+  --secondary-foreground: #000a68;
+
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+
+  --accent: #f0f9ff; /* Hover State */
+  --accent-foreground: #000a68;
+
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #000a68;
+
+  /* ADD THESE: Success Green (Light Mode) */
+  --success: #16a34a; /* green-600 */
+  --success-foreground: #ffffff;
+
+  --warning: #ca8a04; /* Yellow-600 */
+  --warning-foreground: #ffffff;
+
+  --info: #2563eb; /* Blue-600 */
+  --info-foreground: #ffffff;
+}
+
+/* --- DARK MODE MAPPING (Luxury & Depth) --- */
+.dark {
+  --background: #020617; /* Almost Black */
+  --foreground: #e0f2fe; /* Pale Sky Text */
+
+  --card: #0f172a; /* Deep Navy/Slate */
+  --card-foreground: #e0f2fe;
+
+  --popover: #0f172a;
+  --popover-foreground: #e0f2fe;
+
+  --primary: #d2eaf5; /* Pale Sky as Primary Action */
+  --primary-foreground: #000a68; /* Dark Text on Light Button */
+
+  --secondary: #1e293b;
+  --secondary-foreground: #f8fafc;
+
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+
+  --accent: #1e293b; /* Hover State */
+  --accent-foreground: #d2eaf5;
+
+  --destructive: #7f1d1d;
+  --destructive-foreground: #fef2f2;
+
+  --border: #1e293b; /* Dark Borders */
+  --input: #1e293b;
+  --ring: #d2eaf5;
+
+  --success: #4ade80; /* green-400 */
+  --success-foreground: #022c22;
+
+  --warning: #facc15; /* Yellow-400 */
+  --warning-foreground: #422006;
+
+  --info: #60a5fa; /* Blue-400 */
+  --info-foreground: #1e3a8a;
+}
+
+@theme {
+  /* Map CSS Variables to Tailwind Theme */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+/*@import "./tokens/_typography.css";*/
+/* src/styles/tokens/_typography.css */
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Tighten default line-heights for dashboard density */
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1rem;
+
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.25rem;
+
+  --text-base: 1rem;
+  --text-base--line-height: 1.5rem;
+}
+/*@import "./tokens/_radius.css";*/
+/* src/styles/tokens/_radius.css */
+
+:root {
+  --radius: 0.5rem; /* 8px */
+}
+
+/* src/styles/tokens/_spacing.css */
+@theme {
+  /* Layout Dimensions */
+  --container-width: 1600px;
+  --header-height: 4rem;
+
+  /* Sidebar Specifics (Crucial for the fix) */
+  --sidebar-width-collapsed: 80px;
+  --sidebar-width-expanded: 300px;
+  --sidebar-icon-size: 40px;
+}
+
+@theme {
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+/*@import "./tokens/_shadows.css";*/
+/* src/styles/tokens/_shadows.css */
+
+@theme {
+  /* Light Mode: Soft, diffuse shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-DEFAULT:
+    0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+  /* The "Glow" helper for Dark Mode */
+  --shadow-glow: 0 0 0 1px var(--border), 0 0 15px 0 rgba(210, 234, 245, 0.05);
+}
+/*@import "./tokens/_animations.css";*/
+@theme {
+  /* --- EXISTING (You can keep or tweak) --- */
+  --animate-fade-in: fade-in 0.3s ease-out;
+
+  /* --- UPDATED: Slower, smoother entrance --- */
+  /* Increased from 0.9s to 1.2s for a relaxed feel */
+  --animate-slide-in: slide-in 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* --- NEW: Sidebar specific (adds a tiny delay to mask the glitch) --- */
+  --animate-sidebar-enter: slide-in 3s cubic-bezier(0.16, 1, 0.3, 1) 0.1s
+    backwards;
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in {
+    /* Starts slightly to the left (-10px) and invisible */
+    0% {
+      transform: translateX(-10px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+}
+
+/* (Add breakpoints/z-index here if needed later) */
+
+/* 3. Utilities Layer */
+/* @import "./utilities/_variants.css"; */
+
+/* --- Add this to the bottom of your app.css --- */
+
+@layer utilities {
+  /* Sleek custom scrollbar for terminal/logs */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}

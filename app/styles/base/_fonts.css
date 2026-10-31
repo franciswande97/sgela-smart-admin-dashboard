@@ -1,0 +1,14 @@
+/* src/styles/base/_fonts.css */
+
+/* Ideally, install Geist via: npm install geist
+   Then import in your main.tsx.
+   Here we define the font stack for Tailwind.
+*/
+
+:root {
+  /* Geist Sans for UI */
+  --font-geist-sans: "Geist", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Geist Mono for Data/Code */
+  --font-geist-mono: "Geist Mono", "JetBrains Mono", "Fira Code", monospace;
+}

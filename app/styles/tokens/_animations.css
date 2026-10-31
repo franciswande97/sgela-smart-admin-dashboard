@@ -1,0 +1,35 @@
+@theme {
+  /* --- EXISTING (You can keep or tweak) --- */
+  --animate-fade-in: fade-in 0.3s ease-out;
+
+  /* --- UPDATED: Slower, smoother entrance --- */
+  /* Increased from 0.9s to 1.2s for a relaxed feel */
+  --animate-slide-in: slide-in 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* --- NEW: Sidebar specific (adds a tiny delay to mask the glitch) --- */
+  --animate-sidebar-enter: slide-in 3s cubic-bezier(0.16, 1, 0.3, 1) 0.1s backwards;
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes slide-in {
+    /* Starts slightly to the left (-10px) and invisible */
+    0% { transform: translateX(-10px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+  }
+
+  @keyframes accordion-down {
+    from { height: 0; }
+    to { height: var(--radix-accordion-content-height); }
+  }
+
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height); }
+    to { height: 0; }
+  }
+}

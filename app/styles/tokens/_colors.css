@@ -1,0 +1,124 @@
+/* src/styles/tokens/_colors.css */
+
+:root {
+  /* --- BASE PALETTE --- */
+  /* Brand Navy */
+  --color-navy-950: #000a68; /* Logo/Deepest */
+  --color-navy-900: #0f172a; /* Card Bg (Dark) */
+  --color-navy-800: #1e293b; /* Border (Dark) */
+
+  /* Brand Pale Sky */
+  --color-sky-50: #f0f9ff;
+  --color-sky-100: #e0f2fe;
+  --color-sky-200: #d2eaf5; /* Accent */
+
+  /* --- LIGHT MODE MAPPING (Professional & Clean) --- */
+  --background: #f8fafc; /* Slate 50 */
+  --foreground: #000a68; /* Brand Navy */
+
+  --card: #ffffff;
+  --card-foreground: #000a68;
+
+  --popover: #ffffff;
+  --popover-foreground: #000a68;
+
+  --primary: #000a68; /* Brand Navy as Primary Action */
+  --primary-foreground: #ffffff;
+
+  --secondary: #d2eaf5; /* Pale Sky */
+  --secondary-foreground: #000a68;
+
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+
+  --accent: #f0f9ff; /* Hover State */
+  --accent-foreground: #000a68;
+
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #000a68;
+
+  /* ADD THESE: Success Green (Light Mode) */
+  --success: #16a34a; /* green-600 */
+  --success-foreground: #ffffff;
+
+  --warning: #ca8a04; /* Yellow-600 */
+  --warning-foreground: #ffffff;
+
+  --info: #2563eb; /* Blue-600 */
+  --info-foreground: #ffffff;
+}
+
+/* --- DARK MODE MAPPING (Luxury & Depth) --- */
+.dark {
+  --background: #020617; /* Almost Black */
+  --foreground: #e0f2fe; /* Pale Sky Text */
+
+  --card: #0f172a; /* Deep Navy/Slate */
+  --card-foreground: #e0f2fe;
+
+  --popover: #0f172a;
+  --popover-foreground: #e0f2fe;
+
+  --primary: #d2eaf5; /* Pale Sky as Primary Action */
+  --primary-foreground: #000a68; /* Dark Text on Light Button */
+
+  --secondary: #1e293b;
+  --secondary-foreground: #f8fafc;
+
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+
+  --accent: #1e293b; /* Hover State */
+  --accent-foreground: #d2eaf5;
+
+  --destructive: #7f1d1d;
+  --destructive-foreground: #fef2f2;
+
+  --border: #1e293b; /* Dark Borders */
+  --input: #1e293b;
+  --ring: #d2eaf5;
+
+  --success: #4ade80; /* green-400 */
+  --success-foreground: #022c22;
+
+  --warning: #facc15; /* Yellow-400 */
+  --warning-foreground: #422006;
+
+  --info: #60a5fa; /* Blue-400 */
+  --info-foreground: #1e3a8a;
+}
+
+@theme {
+  /* Map CSS Variables to Tailwind Theme */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+}
+
+@variant dark (&:where(.dark, .dark *));

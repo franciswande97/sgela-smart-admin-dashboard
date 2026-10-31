@@ -1,0 +1,11 @@
+/* src/styles/tokens/_radius.css */
+
+:root {
+  --radius: 0.5rem; /* 8px */
+}
+
+@theme {
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
