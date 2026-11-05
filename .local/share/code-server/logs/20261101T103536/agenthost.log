@@ -1,0 +1,16 @@
+2026-11-01 10:38:57.591 [info] Agent Host process started successfully
+2026-11-01 10:38:57.612 [info] AgentService initialized
+2026-11-01 10:38:57.618 [info] Registering agent provider: copilotcli
+2026-11-01 10:38:57.640 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ipc-821b19cf-d9ed-4477-b69a-21b072b192b8.sock
+2026-11-01 10:38:57.640 [info] [AgentHost] WebSocket server listening on /tmp/vscode-ipc-821b19cf-d9ed-4477-b69a-21b072b192b8.sock
+2026-11-01 10:38:57.666 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-11-01 10:38:57.667 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 47ms (0 db opens, 0 db stats)
+2026-11-01 10:38:57.667 [info] [Copilot] Listing discoverable chats...
+2026-11-01 10:38:57.669 [info] [Copilot] Starting CopilotClient...
+2026-11-01 10:38:57.669 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=code-oss
+2026-11-01 10:38:57.677 [info] [Copilot] Resolved runtime path: /usr/lib/code-server/lib/vscode/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-11-01 10:38:57.690 [info] [Copilot] CopilotClient started successfully
+2026-11-01 10:38:57.718 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-11-01 10:38:57.718 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-11-01 10:39:01.093 [info] [ProtocolServer] Initialize: clientId=06655107-7921-4988-bb20-570ddc1f37ef, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-11-01 10:39:01.549 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days

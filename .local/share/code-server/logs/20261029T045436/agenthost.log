@@ -1,0 +1,25 @@
+2026-10-29 04:54:40.915 [info] Agent Host process started successfully
+2026-10-29 04:54:40.941 [info] AgentService initialized
+2026-10-29 04:54:40.953 [info] Registering agent provider: copilotcli
+2026-10-29 04:54:40.998 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ipc-91279da5-d495-4b47-b834-9f86cc31498b.sock
+2026-10-29 04:54:40.998 [info] [AgentHost] WebSocket server listening on /tmp/vscode-ipc-91279da5-d495-4b47-b834-9f86cc31498b.sock
+2026-10-29 04:54:41.020 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 65ms (0 db opens, 0 db stats)
+2026-10-29 04:54:41.021 [info] [Copilot] Listing discoverable chats...
+2026-10-29 04:54:41.025 [info] [Copilot] Starting CopilotClient...
+2026-10-29 04:54:41.025 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=code-oss
+2026-10-29 04:54:41.037 [info] [Copilot] Resolved runtime path: /usr/lib/code-server/lib/vscode/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-10-29 04:54:41.060 [info] [Copilot] CopilotClient started successfully
+2026-10-29 04:54:41.138 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-10-29 04:54:41.138 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-10-29 04:54:41.139 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-10-29 04:54:41.346 [info] [ProtocolServer] Initialize: clientId=d923991b-0d3f-495d-806c-a136135d1fd4, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-29 04:54:41.865 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-10-29 05:17:25.742 [info] [ProtocolServer] Initialize: clientId=ab54414a-41ca-414f-90b9-b3f0c521d3c1, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-29 08:08:23.622 [info] [ProtocolServer] Initialize: clientId=e80bb438-d432-4b5c-90d5-2c35e082f978, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-29 08:13:07.443 [info] [ProtocolServer] Client disconnected: ab54414a-41ca-414f-90b9-b3f0c521d3c1, subscriptions=1
+2026-10-29 08:26:30.016 [info] [Copilot] Auth token updated
+2026-10-29 08:26:30.793 [info] [Copilot] Enhanced (restricted) telemetry enabled for this account
+2026-10-29 08:26:30.794 [info] [Copilot] Listing models...
+2026-10-29 08:26:32.811 [info] [Copilot] Found 1 models: Auto
+2026-10-29 09:53:20.444 [info] [ProtocolServer] Initialize: clientId=6ad972fd-9b0c-4660-bdd0-b004643808ef, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-29 09:58:18.264 [info] [ProtocolServer] Client disconnected: e80bb438-d432-4b5c-90d5-2c35e082f978, subscriptions=1

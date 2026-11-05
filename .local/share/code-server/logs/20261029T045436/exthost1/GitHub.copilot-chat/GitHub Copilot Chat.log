@@ -1,0 +1,116 @@
+2026-10-29 08:26:35.067 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-10-29 08:26:35.067 [info] FetcherService: Experimentation service not available yet, using default fetcher configuration.
+2026-10-29 08:26:35.067 [info] Can't use the Electron fetcher in this environment.
+2026-10-29 08:26:35.067 [info] Using the Node fetch fetcher.
+2026-10-29 08:26:35.067 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-10-29 08:26:35.067 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-10-29 08:26:35.067 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-10-29 08:26:35.422 [info] Logged in as franciswande97
+2026-10-29 08:26:35.854 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-10-29 08:26:36.312 [info] Got Copilot token for franciswande97
+2026-10-29 08:26:36.312 [info] Copilot Chat: 0.67.0, VS Code: 1.139.1
+2026-10-29 08:26:36.472 [info] copilot token sku: free_limited_copilot
+2026-10-29 08:26:36.472 [info] ConversationFeature: Activating contributions
+2026-10-29 08:26:36.473 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-10-29 08:26:36.492 [info] Registering default platform agent...
+2026-10-29 08:26:36.513 [info] copilot token sku: free_limited_copilot
+2026-10-29 08:26:36.513 [info] [code-referencing] Public code references are enabled.
+2026-10-29 08:26:36.514 [info] copilot token sku: free_limited_copilot
+2026-10-29 08:26:36.514 [info] [code-referencing] Public code references are enabled.
+2026-10-29 08:26:36.514 [info] copilot token sku: free_limited_copilot
+2026-10-29 08:26:36.514 [info] [code-referencing] Public code references are enabled.
+2026-10-29 08:26:36.515 [info] copilot token sku: free_limited_copilot
+2026-10-29 08:26:36.515 [info] [code-referencing] Public code references are enabled.
+2026-10-29 08:26:36.515 [info] copilot token sku: free_limited_copilot
+2026-10-29 08:26:36.515 [info] [code-referencing] Public code references are enabled.
+2026-10-29 08:26:36.518 [info] activationBlocker from 'conversationFeature' took for 742ms
+2026-10-29 08:26:36.523 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-10-29 08:26:36.523 [info] copilot token sku: free_limited_copilot
+2026-10-29 08:26:36.527 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-10-29 08:26:36.527 [info] BYOK: fetching known models list
+2026-10-29 08:26:36.528 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-10-29 08:26:36.596 [info] activationBlocker from 'languageModelAccess' took for 826ms
+2026-10-29 08:26:36.610 [info] [CopilotCLI] MCP server started. Lock file: /home/coder/.copilot/ide/4732903e-6fdc-4512-bb36-8395a3e659b6.lock
+2026-10-29 08:26:36.610 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-uvhMSP/mcp.sock#%2Fmcp
+2026-10-29 08:26:36.618 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-29 08:26:36.984 [info] [CopilotCLIChatSessionContentProvider] listSessions took 372.1199989998713ms
+2026-10-29 08:26:36.984 [info] [CopilotCLIChatSessionContentProvider] listSessions took 288.23771300003864ms
+2026-10-29 08:26:36.989 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-10-29 08:26:37.071 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.5501459999941289ms
+2026-10-29 08:26:37.732 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-10-29 08:26:37.735 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-10-29 08:26:37.994 [error] Failed to create database. Falling back to in-memory db: Error: unable to open database file
+2026-10-29 08:26:38.849 [info] Fetched model metadata in 3066ms d9ac6142-eabe-4275-b8fa-92830b2ca2fb
+2026-10-29 08:26:39.283 [info] Latest entry: ccreq:latest.copilotmd
+2026-10-29 08:26:39.284 [info] ccreq:204e8f60.copilotmd | markdown
+2026-10-29 08:26:39.837 [info] ConversationFeature: BYOK models available
+2026-10-29 08:26:39.837 [info] copilot token sku: free_limited_copilot
+2026-10-29 08:27:27.298 [info] ccreq:635ab60e.copilotmd | markdown
+2026-10-29 08:27:27.317 [info] [VoiceProgress] loop request=request_6097dd2f-66fa-4e92-ab41-2c66d2e27e93 configured=true voice=false subagent=false stream=true
+2026-10-29 08:27:27.431 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-29 08:27:27.677 [info] message 0 returned. finish reason: [stop]
+2026-10-29 08:27:27.683 [info] request done: requestId: [5e03d555-fdd3-962c-9d58-d098729efa7d] model deployment ID: []
+2026-10-29 08:27:27.684 [info] ccreq:1f2df680.copilotmd | success | gpt-4o-mini-2024-07-18 | 714ms | [title]
+2026-10-29 08:27:28.326 [info] message 0 returned. finish reason: [stop]
+2026-10-29 08:27:28.328 [info] request done: requestId: [8ebe6260-3481-9eb1-8443-16a9bca2d351] model deployment ID: []
+2026-10-29 08:27:28.329 [info] ccreq:4693ee3a.copilotmd | success | gpt-4o-mini-2024-07-18 | 985ms | [progressMessages]
+2026-10-29 08:27:28.387 [info] message 0 returned. finish reason: [stop]
+2026-10-29 08:27:28.390 [info] request done: requestId: [2ec4c5e9-54e1-9c24-bb39-4dfb7e81fca2] model deployment ID: []
+2026-10-29 08:27:28.391 [info] ccreq:4e46552f.copilotmd | success | gpt-4o-mini-2024-07-18 | 1034ms | [progressMessages]
+2026-10-29 08:27:39.582 [info] ccreq:c86c50d2.copilotmd | success | gpt-6-luna | 10873ms | [panel/editAgent]
+2026-10-29 08:27:39.608 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-10-29 08:27:54.576 [error] [ChatWebSocketManager] Error for conversation 0207d4f3-82fb-4172-9b64-dc5ad6bed28b turn request_6097dd2f-66fa-4e92-ab41-2c66d2e27e93: :
+2026-10-29 08:30:46.468 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.685338000068441ms
+2026-10-29 08:31:12.059 [info] [VoiceProgress] loop request=request_488a9668-7a83-4e08-bdef-2fe0d1636d94 configured=true voice=false subagent=false stream=true
+2026-10-29 08:31:12.153 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-29 08:31:12.197 [error] [SessionTranscript] Failed to write transcript entries: Error: ENOENT: no such file or directory, open '/home/coder/.local/share/code-server/User/workspaceStorage/6eafc097/GitHub.copilot-chat/transcripts/0207d4f3-82fb-4172-9b64-dc5ad6bed28b.jsonl'
+2026-10-29 08:31:18.024 [info] ccreq:30a20ba2.copilotmd | success | gpt-6-luna | 5563ms | [panel/editAgent]
+2026-10-29 08:31:18.058 [info] [VoiceProgress] fallback request=request_488a9668-7a83-4e08-bdef-2fe0d1636d94 phase=validating emitted=false tools=run_in_terminal
+2026-10-29 08:31:18.190 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-29 08:31:18.224 [error] [SessionTranscript] Failed to write transcript entries: Error: ENOENT: no such file or directory, open '/home/coder/.local/share/code-server/User/workspaceStorage/6eafc097/GitHub.copilot-chat/transcripts/0207d4f3-82fb-4172-9b64-dc5ad6bed28b.jsonl'
+2026-10-29 08:31:18.241 [warning] Error compiling input schema for tool run_in_terminal: Error: strict mode: unknown keyword: "enumDescriptions"
+2026-10-29 08:31:20.288 [info] message 0 returned. finish reason: [stop]
+2026-10-29 08:31:20.290 [info] request done: requestId: [94874738-5f47-96ec-9a78-fc475b6a0f31] model deployment ID: []
+2026-10-29 08:31:20.291 [info] ccreq:15bdf2e1.copilotmd | success | gpt-4o-mini-2024-07-18 | 1461ms | [copilotLanguageModelWrapper]
+2026-10-29 08:31:33.024 [error] [ChatWebSocketManager] Error for conversation 0207d4f3-82fb-4172-9b64-dc5ad6bed28b turn request_488a9668-7a83-4e08-bdef-2fe0d1636d94: :
+2026-10-29 08:32:05.491 [info] ccreq:1ebc1c55.copilotmd | success | gpt-6-luna | 8945ms | [panel/editAgent]
+2026-10-29 08:32:05.496 [info] [VoiceProgress] fallback request=request_488a9668-7a83-4e08-bdef-2fe0d1636d94 phase=validating emitted=false tools=run_in_terminal
+2026-10-29 08:32:05.563 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-29 08:32:05.611 [error] [SessionTranscript] Failed to write transcript entries: Error: ENOENT: no such file or directory, open '/home/coder/.local/share/code-server/User/workspaceStorage/6eafc097/GitHub.copilot-chat/transcripts/0207d4f3-82fb-4172-9b64-dc5ad6bed28b.jsonl'
+2026-10-29 08:32:07.092 [info] message 0 returned. finish reason: [stop]
+2026-10-29 08:32:07.094 [info] request done: requestId: [b9a2c501-d275-9abc-8185-b197e4b49f1a] model deployment ID: []
+2026-10-29 08:32:07.095 [info] ccreq:2bb5b480.copilotmd | success | gpt-4o-mini-2024-07-18 | 1110ms | [copilotLanguageModelWrapper]
+2026-10-29 08:32:20.489 [error] [ChatWebSocketManager] Error for conversation 0207d4f3-82fb-4172-9b64-dc5ad6bed28b turn request_488a9668-7a83-4e08-bdef-2fe0d1636d94: :
+2026-10-29 08:32:39.464 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0501649999059737ms
+2026-10-29 08:33:03.739 [info] ccreq:b374bf4d.copilotmd | success | gpt-6-luna | 17923ms | [panel/editAgent]
+2026-10-29 08:33:03.747 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-10-29 08:33:31.851 [error] [ChatWebSocketManager] Error for conversation 0207d4f3-82fb-4172-9b64-dc5ad6bed28b turn request_488a9668-7a83-4e08-bdef-2fe0d1636d94: :
+2026-10-29 08:34:29.597 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.1581180000212044ms
+2026-10-29 08:34:33.114 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8739080000668764ms
+2026-10-29 08:35:48.642 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0098339999094605ms
+2026-10-29 08:36:18.390 [info] [VoiceProgress] loop request=request_d532475d-8f49-4839-9dad-378bc7f78e16 configured=true voice=false subagent=false stream=true
+2026-10-29 08:36:18.464 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-29 08:36:18.688 [error] [SessionTranscript] Failed to write transcript entries: Error: ENOENT: no such file or directory, open '/home/coder/.local/share/code-server/User/workspaceStorage/6eafc097/GitHub.copilot-chat/transcripts/0207d4f3-82fb-4172-9b64-dc5ad6bed28b.jsonl'
+2026-10-29 08:36:45.304 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0522210001945496ms
+2026-10-29 08:36:47.555 [info] ccreq:0839968c.copilotmd | success | gpt-6-luna | 28424ms | [panel/editAgent]
+2026-10-29 08:36:47.575 [info] [CopilotCLIChatSessionContentProvider] listSessions took 13.045750000048429ms
+2026-10-29 08:36:47.946 [info] [VoiceProgress] fallback request=request_d532475d-8f49-4839-9dad-378bc7f78e16 phase=validating emitted=false tools=run_in_terminal
+2026-10-29 08:36:48.836 [info] Fetched model metadata in 890ms d2b0b046-84de-4895-9601-ef81d6dddc05
+2026-10-29 08:36:49.128 [info] ccreq:1ca78a91.copilotmd | markdown
+2026-10-29 08:36:49.310 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-29 08:36:49.425 [error] [SessionTranscript] Failed to write transcript entries: Error: ENOENT: no such file or directory, open '/home/coder/.local/share/code-server/User/workspaceStorage/6eafc097/GitHub.copilot-chat/transcripts/0207d4f3-82fb-4172-9b64-dc5ad6bed28b.jsonl'
+2026-10-29 08:36:50.737 [info] message 0 returned. finish reason: [stop]
+2026-10-29 08:36:50.739 [info] request done: requestId: [c11dab8d-6c1e-932f-8e1a-70e1a399be0f] model deployment ID: []
+2026-10-29 08:36:50.740 [info] ccreq:b987fa55.copilotmd | success | gpt-4o-mini-2024-07-18 | 1049ms | [copilotLanguageModelWrapper]
+2026-10-29 08:37:05.131 [error] [ChatWebSocketManager] Error for conversation 0207d4f3-82fb-4172-9b64-dc5ad6bed28b turn request_d532475d-8f49-4839-9dad-378bc7f78e16: :
+2026-10-29 08:37:24.572 [info] ccreq:a8cae3f1.copilotmd | success | gpt-6-luna | 8225ms | [panel/editAgent]
+2026-10-29 08:37:24.662 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-10-29 08:37:24.830 [error] [SessionTranscript] Failed to write transcript entries: Error: ENOENT: no such file or directory, open '/home/coder/.local/share/code-server/User/workspaceStorage/6eafc097/GitHub.copilot-chat/transcripts/0207d4f3-82fb-4172-9b64-dc5ad6bed28b.jsonl'
+2026-10-29 08:37:26.263 [info] message 0 returned. finish reason: [stop]
+2026-10-29 08:37:26.265 [info] request done: requestId: [d17fb1a8-9496-9a8a-8c6d-ed4074e37ce2] model deployment ID: []
+2026-10-29 08:37:26.266 [info] ccreq:5a432d73.copilotmd | success | gpt-4o-mini-2024-07-18 | 1196ms | [copilotLanguageModelWrapper]
+2026-10-29 08:37:39.569 [error] [ChatWebSocketManager] Error for conversation 0207d4f3-82fb-4172-9b64-dc5ad6bed28b turn request_d532475d-8f49-4839-9dad-378bc7f78e16: :
+2026-10-29 08:37:48.200 [info] ccreq:192d410f.copilotmd | success | gpt-6-luna | 6523ms | [panel/editAgent]
+2026-10-29 08:37:48.208 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-10-29 08:38:03.196 [error] [ChatWebSocketManager] Error for conversation 0207d4f3-82fb-4172-9b64-dc5ad6bed28b turn request_d532475d-8f49-4839-9dad-378bc7f78e16: :
+2026-10-29 09:16:02.303 [info] [CopilotCLIChatSessionContentProvider] listSessions took 25.722622000146657ms

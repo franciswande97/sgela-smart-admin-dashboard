@@ -1,0 +1,10 @@
+2026-11-02 03:57:11.910 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker is not available in web UI
+2026-11-02 03:57:12.189 [info] [getSessions] [all] starting
+2026-11-02 03:57:12.189 [info] [getSessions] [all] returned 0 session(s)
+2026-11-02 03:57:12.244 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-11-02 03:57:12.244 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker is not available in web UI
+2026-11-02 03:57:12.414 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-11-02 04:57:48.979 [info] [getSessions] [all] starting
+2026-11-02 04:57:48.979 [info] [getSessions] [all] returned 0 session(s)
+2026-11-02 04:57:49.504 [info] [getSessions] [all] starting
+2026-11-02 04:57:49.504 [info] [getSessions] [all] returned 0 session(s)

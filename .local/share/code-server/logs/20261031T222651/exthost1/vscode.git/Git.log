@@ -1,0 +1,48 @@
+2026-11-01 07:30:28.068 [info] [main] Log level: Info
+2026-11-01 07:30:28.068 [info] [main] Validating found git in: "git"
+2026-11-01 07:30:28.068 [info] [main] Using git "2.47.3" from "git"
+2026-11-01 07:30:28.068 [info] [Model][doInitialScan] Initial repository scan started
+2026-11-01 07:30:28.068 [info] > git rev-parse --show-toplevel [2ms]
+2026-11-01 07:30:28.068 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [61ms]
+2026-11-01 07:30:28.110 [info] [Model][openRepository] Opened repository (path): /home/coder
+2026-11-01 07:30:28.111 [info] [Model][openRepository] Opened repository (real path): /home/coder
+2026-11-01 07:30:28.111 [info] [Model][openRepository] Opened repository (kind): repository
+2026-11-01 07:30:28.130 [info] > git config --get commit.template [6ms]
+2026-11-01 07:30:28.131 [info] > git config --get --local core.virtualfilesystem [11ms]
+2026-11-01 07:30:28.131 [warning] [Git][config] git config failed: Failed to execute git
+2026-11-01 07:30:28.138 [info] > git rev-parse --show-toplevel [9ms]
+2026-11-01 07:30:28.148 [info] > git rev-parse --show-toplevel [5ms]
+2026-11-01 07:30:28.148 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature_test refs/remotes/feature_test [11ms]
+2026-11-01 07:30:28.173 [info] > git rev-parse --show-toplevel [18ms]
+2026-11-01 07:30:28.182 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-11-01 07:30:28.184 [info] > git rev-parse --show-toplevel [3ms]
+2026-11-01 07:30:28.189 [info] > git status -z -uall [26ms]
+2026-11-01 07:30:28.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature_test refs/remotes/feature_test [17ms]
+2026-11-01 07:30:28.235 [info] > git rev-parse --show-toplevel [46ms]
+2026-11-01 07:30:28.241 [info] > git config --get commit.template [11ms]
+2026-11-01 07:30:28.247 [info] > git config --get --local branch.feature_test.vscode-merge-base [12ms]
+2026-11-01 07:30:28.247 [warning] [Git][config] git config failed: Failed to execute git
+2026-11-01 07:30:28.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature_test refs/remotes/feature_test [9ms]
+2026-11-01 07:30:28.256 [info] > git rev-parse --show-toplevel [15ms]
+2026-11-01 07:30:28.261 [info] > git reflog feature_test --grep-reflog=branch: Created from *. [8ms]
+2026-11-01 07:30:28.277 [info] > git rev-parse --show-toplevel [17ms]
+2026-11-01 07:30:28.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2026-11-01 07:30:28.290 [info] > git status -z -uall [18ms]
+2026-11-01 07:30:28.301 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2026-11-01 07:30:28.307 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/main [23ms]
+2026-11-01 07:30:28.317 [info] > git rev-parse --show-toplevel [28ms]
+2026-11-01 07:30:28.318 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-11-01 07:30:28.319 [info] > git config --add --local branch.feature_test.vscode-merge-base origin/main [4ms]
+2026-11-01 07:30:28.327 [info] > git config --get commit.template [1ms]
+2026-11-01 07:30:28.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature_test refs/remotes/feature_test [2ms]
+2026-11-01 07:30:28.349 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-11-01 07:30:28.355 [info] > git status -z -uall [15ms]
+2026-11-01 07:30:28.370 [info] > git merge-base refs/heads/feature_test refs/remotes/origin/feature_test [7ms]
+2026-11-01 07:30:28.377 [info] > git merge-base refs/heads/feature_test refs/remotes/origin/feature_test [8ms]
+2026-11-01 07:30:28.382 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 39be4574c9cc67821474c49f2f6f13d0436bb366...refs/remotes/origin/feature_test -- [6ms]
+2026-11-01 07:30:28.384 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 39be4574c9cc67821474c49f2f6f13d0436bb366...refs/remotes/origin/feature_test -- [2ms]
+2026-11-01 07:30:28.908 [info] > git check-ignore -v -z --stdin [49ms]
+2026-11-01 07:30:29.933 [info] > git config --get commit.template [6ms]
+2026-11-01 07:30:29.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature_test refs/remotes/feature_test [2ms]
+2026-11-01 07:30:29.945 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-11-01 07:30:29.951 [info] > git status -z -uall [12ms]

@@ -1,0 +1,40 @@
+2026-11-01 07:30:27.894 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-11-01 07:30:27.894 [info] FetcherService: Experimentation service not available yet, using default fetcher configuration.
+2026-11-01 07:30:27.894 [info] Can't use the Electron fetcher in this environment.
+2026-11-01 07:30:27.894 [info] Using the Node fetch fetcher.
+2026-11-01 07:30:27.912 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-11-01 07:30:27.913 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-11-01 07:30:27.913 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-11-01 07:30:28.580 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-11-01 07:30:28.580 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-11-01 07:30:28.581 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-11-01 07:30:28.581 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-11-01 07:30:28.581 [info] BYOK: fetching known models list
+2026-11-01 07:30:28.582 [info] activationBlocker from 'languageModelAccess' took for 57ms
+2026-11-01 07:30:28.911 [info] [CopilotCLI] MCP server started. Lock file: /home/coder/.copilot/ide/b1fa392b-5333-4a0c-a94d-bd4b9c47c944.lock
+2026-11-01 07:30:28.911 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-tJQoIe/mcp.sock#%2Fmcp
+2026-11-01 07:30:31.285 [warning] ConversationFeature: failed to query language models: Canceled: Canceled
+2026-11-01 07:30:31.287 [error] Canceled: Canceled
+	at Ta (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:8:1546)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:32:108495
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:32:108403)
+	at t_.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:168:12474)
+	at i.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:170:1072)
+	at ya (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:473:11798)
+	at $p.value (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:473:9939)
+	at T._deliver (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:3617)
+	at T.fire (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:3935)
+	at ws.fire (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:8627)
+	at jc._receiveMessage (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:13527)
+	at $p.value (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:10832)
+	at T._deliver (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:3617)
+	at T.fire (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:3935)
+	at XS.acceptChunk (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:6427)
+	at $p.value (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:5560)
+	at T._deliver (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:3617)
+	at T.fire (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:3935)
+	at qD._processReadQueue (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:27175)
+2026-11-01 07:30:31.287 [error] [CopilotCLIAgents] Failed to fetch custom agents: Canceled: Canceled
+2026-11-01 07:30:31.391 [error] GitHub Copilot could not connect to server. Extension activation failed: "Canceled"
+2026-11-01 07:30:31.391 [info] [context keys] Setting context key: github.copilot.offline

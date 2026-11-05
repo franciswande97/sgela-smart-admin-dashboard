@@ -1,0 +1,54 @@
+2026-11-01 10:42:22.415 [info] 
+
+
+
+
+2026-11-01 10:42:22.426 [info] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /tmp/vscode-ipc-e966d9aa-7159-4714-9315-e61cd6f8ca13.sock)
+2026-11-01 10:42:22.429 [info] Extension host agent started.
+2026-11-01 10:42:23.140 [error] [172.24.0.1][97820bfd][ManagementConnection] Unknown reconnection token (never seen).
+2026-11-01 10:42:23.519 [error] [172.24.0.1][9332f33e][ExtensionHostConnection] Unknown reconnection token (never seen).
+2026-11-01 10:43:03.315 [info] [172.24.0.1][1d4a3911][ManagementConnection] New connection established.
+2026-11-01 10:43:04.132 [info] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+2026-11-01 10:43:04.502 [info] [172.24.0.1][d5acf9e9][ExtensionHostConnection] New connection established.
+2026-11-01 10:43:04.502 [info] [172.24.0.1][d5acf9e9][ExtensionHostConnection] Starting extension host process...
+2026-11-01 10:43:04.507 [info] [172.24.0.1][d5acf9e9][ExtensionHostConnection] <64> Launched Extension Host Process.
+2026-11-01 10:43:04.818 [info] ServerAgentHostManager: agent host started
+2026-11-01 10:43:04.819 [info] [AgentHostChannel] Opening upstream to /tmp/vscode-ipc-e966d9aa-7159-4714-9315-e61cd6f8ca13.sock
+2026-11-01 10:43:04.859 [info] [172.24.0.1][d5acf9e9][ExtensionHostConnection] <64> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-11-01 10:59:52.609 [info] [172.24.0.1][1d4a3911][ManagementConnection] The client has reconnected.
+2026-11-01 11:00:08.314 [info] [172.24.0.1][d5acf9e9][ExtensionHostConnection] The client has reconnected.
+2026-11-01 11:01:26.755 [info] [172.24.0.1][1d4a3911][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-11-01 11:41:36.710 [info] [172.24.0.1][1d4a3911][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-11-01 11:41:36.710 [info] [172.24.0.1][d5acf9e9][ExtensionHostConnection] The client has reconnected.
+2026-11-01 11:41:37.084 [info] [172.24.0.1][1d4a3911][ManagementConnection] The client has reconnected.
+2026-11-01 13:28:35.525 [info] [172.24.0.1][1d4a3911][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-11-01 13:34:31.874 [info] [172.24.0.1][1d4a3911][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-11-01 13:34:31.874 [info] [172.24.0.1][1d4a3911][ManagementConnection] The client has reconnected.
+2026-11-01 13:34:31.876 [info] [172.24.0.1][d5acf9e9][ExtensionHostConnection] The client has reconnected.
+2026-11-01 14:22:06.865 [info] [172.24.0.1][1d4a3911][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-11-01 14:22:29.689 [info] [172.24.0.1][1d4a3911][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-11-01 14:22:29.690 [info] [172.24.0.1][d5acf9e9][ExtensionHostConnection] The client has reconnected.
+2026-11-01 14:22:41.459 [info] [172.24.0.1][1d4a3911][ManagementConnection] The client has reconnected.
+2026-11-01 14:23:42.549 [info] [172.24.0.1][d5acf9e9][ExtensionHostConnection] The client has reconnected.
+2026-11-01 14:26:41.704 [info] [172.24.0.1][d5acf9e9][ExtensionHostConnection] The client has reconnected.
+2026-11-01 14:49:07.156 [info] [172.24.0.1][1d4a3911][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-11-01 17:23:41.950 [info] [172.24.0.1][1d4a3911][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-11-01 17:23:41.950 [info] [172.24.0.1][629bf621][ManagementConnection] New connection established.
+2026-11-01 17:23:43.537 [info] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+2026-11-01 17:23:43.540 [info] [AgentHostChannel] Opening upstream to /tmp/vscode-ipc-e966d9aa-7159-4714-9315-e61cd6f8ca13.sock
+2026-11-01 17:23:44.112 [info] [172.24.0.1][1e227ddf][ExtensionHostConnection] New connection established.
+2026-11-01 17:23:44.112 [info] [172.24.0.1][1e227ddf][ExtensionHostConnection] Starting extension host process...
+2026-11-01 17:23:44.118 [info] [172.24.0.1][1e227ddf][ExtensionHostConnection] <55704> Launched Extension Host Process.
+2026-11-01 17:23:44.562 [info] [172.24.0.1][1e227ddf][ExtensionHostConnection] <55704> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-11-01 17:28:42.084 [info] [172.24.0.1][1d4a3911][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2026-11-01 17:28:42.253 [info] [172.24.0.1][d5acf9e9][ExtensionHostConnection] <64> Extension Host Process exited with code: 0, signal: null.
+2026-11-01 18:39:59.788 [info] [172.24.0.1][629bf621][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-11-01 18:57:10.794 [info] [172.24.0.1][629bf621][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-11-01 18:57:10.795 [info] [172.24.0.1][1e227ddf][ExtensionHostConnection] The client has reconnected.
+2026-11-01 18:57:11.015 [info] [172.24.0.1][629bf621][ManagementConnection] The client has reconnected.
+2026-11-01 19:08:30.090 [info] [172.24.0.1][629bf621][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-11-01 19:09:20.293 [info] [172.24.0.1][629bf621][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-11-01 19:09:20.294 [info] [172.24.0.1][1e227ddf][ExtensionHostConnection] The client has reconnected.
+2026-11-01 19:09:20.514 [info] [172.24.0.1][629bf621][ManagementConnection] The client has reconnected.

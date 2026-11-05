@@ -1,0 +1,20 @@
+2026-10-25 18:35:56.577 [info] Agent Host process started successfully
+2026-10-25 18:35:56.626 [info] AgentService initialized
+2026-10-25 18:35:56.639 [info] Registering agent provider: copilotcli
+2026-10-25 18:35:56.679 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ipc-dfbe85e3-9f83-44b8-85fc-eb082c9e739a.sock
+2026-10-25 18:35:56.679 [info] [AgentHost] WebSocket server listening on /tmp/vscode-ipc-dfbe85e3-9f83-44b8-85fc-eb082c9e739a.sock
+2026-10-25 18:35:56.720 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-10-25 18:35:56.729 [info] [Copilot] Listing chats to migrate...
+2026-10-25 18:35:56.734 [info] [Copilot] Starting CopilotClient...
+2026-10-25 18:35:56.735 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=code-oss
+2026-10-25 18:35:56.747 [info] [Copilot] Resolved runtime path: /usr/lib/code-server/lib/vscode/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-10-25 18:35:56.764 [info] [Copilot] CopilotClient started successfully
+2026-10-25 18:35:56.805 [info] [Copilot] Listed 0 SDK session(s) for chats to migrate
+2026-10-25 18:35:56.805 [info] [Copilot] Found 0 legacy sessions
+2026-10-25 18:35:56.811 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 169ms (0 db opens, 0 db stats)
+2026-10-25 18:35:56.811 [info] [Copilot] Listing discoverable chats...
+2026-10-25 18:35:56.813 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-10-25 18:35:56.813 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-10-25 18:35:56.894 [info] [ProtocolServer] Initialize: clientId=ca4452de-61e8-46b5-b7f0-bd0b70eeb55b, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-25 18:35:56.971 [info] [AgentService] showExternalSessions changed 'none' -> 'recent'; queueing session list reconciliation
+2026-10-25 18:35:56.995 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days

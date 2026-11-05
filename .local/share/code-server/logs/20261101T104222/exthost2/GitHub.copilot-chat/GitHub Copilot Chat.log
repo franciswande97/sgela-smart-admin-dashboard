@@ -1,0 +1,72 @@
+2026-11-01 17:23:47.829 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-11-01 17:23:47.829 [info] FetcherService: Experimentation service not available yet, using default fetcher configuration.
+2026-11-01 17:23:47.829 [info] Can't use the Electron fetcher in this environment.
+2026-11-01 17:23:47.829 [info] Using the Node fetch fetcher.
+2026-11-01 17:23:47.829 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-11-01 17:23:47.829 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-11-01 17:23:47.829 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-11-01 17:23:48.462 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-11-01 17:23:48.463 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-11-01 17:23:48.463 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-11-01 17:23:48.464 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-11-01 17:23:48.464 [info] BYOK: fetching known models list
+2026-11-01 17:23:48.465 [info] activationBlocker from 'languageModelAccess' took for 60ms
+2026-11-01 17:23:49.003 [info] [CopilotCLI] MCP server started. Lock file: /home/coder/.copilot/ide/b5cf95f8-267d-4304-a5d5-c7c2325d8d30.lock
+2026-11-01 17:23:49.003 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-G7e9S3/mcp.sock#%2Fmcp
+2026-11-01 17:23:49.162 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-11-01 17:23:49.187 [info] [CopilotCLIChatSessionContentProvider] listSessions took 65.26575499999944ms
+2026-11-01 17:23:49.202 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-11-01 17:23:49.535 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-11-01 17:23:49.745 [info] ConversationFeature: BYOK models available
+2026-11-01 17:23:49.745 [info] ConversationFeature: Activating contributions
+2026-11-01 17:23:49.745 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-11-01 17:23:49.763 [warning] Unable to fetch remote agents because user is not signed in.
+2026-11-01 17:23:49.763 [info] activationBlocker from 'conversationFeature' took for 1370ms
+2026-11-01 17:23:49.899 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-11-01 17:23:49.903 [warning] GitHub login failed
+2026-11-01 17:23:49.905 [info] [context keys] Setting context key: github.copilot.interactiveSession.gitHubLoginFailed
+2026-11-01 17:23:49.919 [info] [CopilotCLIChatSessionContentProvider] listSessions took 21.246417000000292ms
+2026-11-01 17:23:49.992 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-11-01 17:23:49.994 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.5629699999999502ms
+2026-11-01 17:23:50.275 [warning] GitHub login failed
+2026-11-01 17:23:50.595 [warning] GitHub login failed
+2026-11-01 17:23:50.992 [warning] GitHub login failed
+2026-11-01 17:23:51.325 [warning] GitHub login failed
+2026-11-01 17:24:05.186 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.6824349999988044ms
+2026-11-01 17:24:49.595 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.1868329999997513ms
+2026-11-01 17:24:59.780 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9164109999983339ms
+2026-11-01 17:25:05.326 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.044567000004463ms
+2026-11-01 17:25:12.520 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8887229999963893ms
+2026-11-01 17:30:15.710 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0813859999761917ms
+2026-11-01 17:30:26.115 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9597330000251532ms
+2026-11-01 17:31:07.720 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8486160000320524ms
+2026-11-01 17:31:20.795 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0893340000184253ms
+2026-11-01 17:31:58.320 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9309919999795966ms
+2026-11-01 17:32:35.730 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7201929999282584ms
+2026-11-01 17:32:42.958 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7520990000339225ms
+2026-11-01 17:33:23.830 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8209129999158904ms
+2026-11-01 17:34:00.630 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7362219999777153ms
+2026-11-01 17:34:56.731 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8335029999725521ms
+2026-11-01 17:35:29.405 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8506630000192672ms
+2026-11-01 17:49:31.425 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.989144999999553ms
+2026-11-01 17:56:41.785 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.1584089999087155ms
+2026-11-01 17:57:15.460 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7610979999881238ms
+2026-11-01 17:57:38.545 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9838389998767525ms
+2026-11-01 17:58:27.070 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7672480000182986ms
+2026-11-01 18:01:29.727 [info] [CopilotCLIChatSessionContentProvider] listSessions took 8.471975000109524ms
+2026-11-01 18:02:04.770 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8257010001689196ms
+2026-11-01 18:03:13.695 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0374549999833107ms
+2026-11-01 18:04:37.690 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8992170002311468ms
+2026-11-01 18:05:25.905 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.065760999917984ms
+2026-11-01 18:05:35.565 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6395319998264313ms
+2026-11-01 18:05:48.040 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7800600002519786ms
+2026-11-01 18:06:47.835 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0179759999737144ms
+2026-11-01 18:11:21.385 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.1527810003608465ms
+2026-11-01 18:12:11.390 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7728099999949336ms
+2026-11-01 18:35:42.320 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.9428500002250075ms
+2026-11-01 18:58:40.801 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.2943299999460578ms
+2026-11-01 19:03:27.985 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.910656999796629ms
+2026-11-01 19:04:43.870 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7078029997646809ms
+2026-11-01 19:09:25.365 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0321240006014705ms
+2026-11-01 19:11:34.054 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.878469000570476ms
+2026-11-01 19:14:03.444 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.7499369997531176ms

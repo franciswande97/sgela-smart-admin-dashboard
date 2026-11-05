@@ -1,0 +1,10 @@
+2026-10-29 08:40:38.420 [info] [getSessions] [all] starting
+2026-10-29 08:40:38.420 [info] [getSessions] [all] returned 0 session(s)
+2026-10-29 08:40:38.420 [info] [getSessions] [all] starting
+2026-10-29 08:40:38.420 [info] [getSessions] [all] returned 0 session(s)
+2026-10-29 08:40:38.421 [info] [getSessions] [all] starting
+2026-10-29 08:40:38.421 [info] [getSessions] [all] returned 0 session(s)
+2026-10-29 08:41:38.267 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-10-29 08:41:38.267 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker is not available in web UI
+2026-10-29 08:43:38.256 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-10-29 09:58:18.388 [info] Microsoft Authentication is deactivating...

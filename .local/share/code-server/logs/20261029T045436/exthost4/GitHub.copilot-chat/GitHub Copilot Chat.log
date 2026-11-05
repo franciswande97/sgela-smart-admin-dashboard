@@ -1,0 +1,35 @@
+2026-10-29 09:53:23.761 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-10-29 09:53:23.762 [info] FetcherService: Experimentation service not available yet, using default fetcher configuration.
+2026-10-29 09:53:23.762 [info] Can't use the Electron fetcher in this environment.
+2026-10-29 09:53:23.762 [info] Using the Node fetch fetcher.
+2026-10-29 09:53:23.850 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-10-29 09:53:23.850 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-10-29 09:53:23.850 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-10-29 09:53:24.575 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-10-29 09:53:24.576 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-29 09:53:24.577 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-10-29 09:53:24.577 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-10-29 09:53:24.577 [info] BYOK: fetching known models list
+2026-10-29 09:53:24.578 [info] activationBlocker from 'languageModelAccess' took for 98ms
+2026-10-29 09:53:25.044 [info] [CopilotCLI] MCP server started. Lock file: /home/coder/.copilot/ide/46f16756-ca62-4d43-aabd-b29b5fe7868e.lock
+2026-10-29 09:53:25.044 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-xwV12x/mcp.sock#%2Fmcp
+2026-10-29 09:53:25.143 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-29 09:53:25.146 [info] [CopilotCLIChatSessionContentProvider] listSessions took 54.031715999999506ms
+2026-10-29 09:53:25.182 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-10-29 09:53:25.231 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-29 09:53:25.502 [info] ConversationFeature: BYOK models available
+2026-10-29 09:53:25.502 [info] ConversationFeature: Activating contributions
+2026-10-29 09:53:25.502 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-10-29 09:53:25.522 [warning] Unable to fetch remote agents because user is not signed in.
+2026-10-29 09:53:25.522 [info] activationBlocker from 'conversationFeature' took for 1056ms
+2026-10-29 09:53:25.614 [warning] GitHub login failed
+2026-10-29 09:53:25.616 [info] [context keys] Setting context key: github.copilot.interactiveSession.gitHubLoginFailed
+2026-10-29 09:53:25.684 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-29 09:53:25.686 [info] [CopilotCLIChatSessionContentProvider] listSessions took 2.341355000000476ms
+2026-10-29 09:53:25.756 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-29 09:53:25.758 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6241630000004079ms
+2026-10-29 09:53:25.839 [warning] GitHub login failed
+2026-10-29 09:53:25.920 [warning] GitHub login failed
+2026-10-29 09:53:26.016 [warning] GitHub login failed
+2026-10-29 09:53:26.087 [warning] GitHub login failed
+2026-10-29 12:55:38.585 [info] [CopilotCLIChatSessionContentProvider] listSessions took 29.060336999595165ms
